@@ -6,7 +6,7 @@ import "./nav.css";
 
 export default function Nav() {
   const router = useRouter();
-  const routerList = ["清风廉韵", "廉韵溯源", "廉脉传承", "校园故事", "当代践行","关于我们"];
+  const routerList = ["首页", "廉韵溯源", "廉脉传承", "校园故事", "当代践行","关于我们"];
   const routerNameMap = ["", "rt1","rt2","rt4","rt3","rt5"];
   const routerMap = routerList.map((project, index) => (
         <li

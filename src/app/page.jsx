@@ -16,15 +16,15 @@ export default function(){
             <section className="hero-section">
                 <div className="hero-images">
                     <div className="image-gallery">
-                        <img src="/temp.jpg" alt="山西大学坞城校区南门" className="gallery-image" />
-                        <img src="/temp.jpg" alt="令德湖" className="gallery-image" />
-                        <img src="/temp.jpg" alt="白莲花" className="gallery-image" />
-                        <img src="/temp.jpg" alt="青竹" className="gallery-image" />
-                        <img src="/temp.jpg" alt="博雅塔" className="gallery-image" />
+                        <img src="/m.jpg" alt="山西大学坞城校区南门" className="gallery-image" />
+                        <img src="/h.jpg" alt="令德湖" className="gallery-image" />
+                        <img src="/hua.jpg" alt="白莲花" className="gallery-image" />
+                        <img src="/z.jpg" alt="青竹" className="gallery-image" />
+                        <img src="/t.jpg" alt="博雅塔" className="gallery-image" />
                     </div>
                     <div className="seal-container">
                         {/* 右侧印章：朱红色"清风廉韵"篆刻印章 */}
-                        <img src="/temp.jpg" alt="清风廉韵" className="seal-image" />
+                        <img src="/qfly.jpg" alt="清风廉韵" className="seal-image" />
                     </div>
                 </div>
             </section>
@@ -47,11 +47,11 @@ export default function(){
             {/* 底部水墨分割线及"令德""笃行"小印章  */}
             <footer className="page-footer">
                 <div className="divider-line">
-                    <img src="/temp.jpg" alt="水墨分割线" className="divider-image" />
+                    <img src="/smfg.jpg" alt="水墨分割线" className="divider-image" />
                 </div>
                 <div className="footer-seals">
-                    <img src="/temp.jpg" alt="令德" className="footer-seal" />
-                    <img src="/temp.jpg" alt="笃行" className="footer-seal" />
+                    <img src="/ld.jpg" alt="令德" className="footer-seal" />
+                    <img src="/dx.jpg" alt="笃行" className="footer-seal" />
                 </div>
             </footer>
         </div>

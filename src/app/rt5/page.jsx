@@ -53,7 +53,7 @@ export default ()=>{
                     </ul>
                     <div className="member-description">
                         <b style={{display: "inline", marginBottom: "1rem", fontSize: "1.1rem", fontWeight: "600", color: "#2c3e2d", letterSpacing: "0.05em"}}>成员简介：</b>
-                        <p>我们都为2024级学生，来自山西大学计算机信息与技术学院，来自4个不同的专业班级，创建此网站旨在以多元形式深化青年廉洁认知，培育清朗校风、涵养青年品格。</p>
+                        <p>我们是山西大学计算机与信息技术学院 2024 级学子，来自先进计算、计科一班、计科二班、人工智能 4 个专业班级，以专业分工共筑廉洁文化传播载体</p>
                     </div>
                 </section>
                 
@@ -62,11 +62,11 @@ export default ()=>{
                     <div className="project-info">
                         <div className="info-row">
                             <h3 className="info-label">网页链接</h3>
-                            <a href="https://www.baidu.com" className="info-link" target="_blank" rel="noopener noreferrer">https://www.baidu.com</a>
+                            <a href="http://sxu.xiaohua.host" className="info-link" target="_blank" rel="noopener noreferrer">http://sxu.xiaohua.host</a>
                         </div>
                         <div className="info-row">
                             <h3 className="info-label">GitHub项目地址</h3>
-                            <a href="https://github.com/yourusername/yourrepo" className="info-link" target="_blank" rel="noopener noreferrer">https://github.com/yourusername/yourrepo</a>
+                            <a href="https://github.com/jiexiaohua/webschoolwork.git" className="info-link" target="_blank" rel="noopener noreferrer">https://github.com/jiexiaohua/webschoolwork.git</a>
                         </div>
                         <div className="info-row">
                             <h3 className="info-label">创作时间</h3>

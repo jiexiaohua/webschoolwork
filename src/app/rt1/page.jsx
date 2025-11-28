@@ -21,7 +21,7 @@ export default ()=>{
                                 {/* 上2个卡片 */}
                                 <div className="book-card">
                                     <h3 className="book-title">《论语》——修身正己之本</h3>
-                                    <img src="/temp.jpg" alt="《论语》——修身正己之本" className="book-image" />
+                                    <img src="/ly.jpg" alt="《论语》——修身正己之本" className="book-image" />
                                     <p className="book-quote">"其身正，不令而行；其身不正，虽令不从。"——《论语·子路》</p>
                                     <div className="book-content">
                                         <p className="book-label">释义：</p>
@@ -33,7 +33,7 @@ export default ()=>{
                                 
                                 <div className="book-card">
                                     <h3 className="book-title">《官箴》——为官从政之则</h3>
-                                    <img src="/temp.jpg" alt="《官箴》——为官从政之则" className="book-image" />
+                                    <img src="/gj.jpg" alt="《官箴》——为官从政之则" className="book-image" />
                                     <p className="book-quote">"公生明，廉生威。"——《官箴》</p>
                                     <div className="book-content">
                                         <p className="book-label">释义：</p>
@@ -48,7 +48,7 @@ export default ()=>{
                                 {/* 下3个卡片 */}
                                 <div className="book-card">
                                     <h3 className="book-title">《道德经》——处世智慧之境</h3>
-                                    <img src="/temp.jpg" alt="《道德经》——处世智慧之境" className="book-image" />
+                                    <img src="/ddj.jpg" alt="《道德经》——处世智慧之境" className="book-image" />
                                     <p className="book-quote">"知足不辱，知止不殆，可以长久。"——《道德经·第四十四章》</p>
                                     <div className="book-content">
                                         <p className="book-label">释义：</p>
@@ -60,7 +60,7 @@ export default ()=>{
                                 
                                 <div className="book-card">
                                     <h3 className="book-title">《左传》——德行根基之色</h3>
-                                    <img src="/temp.jpg" alt="《左传》——德行根基之色" className="book-image" />
+                                    <img src="/zz.jpg" alt="《左传》——德行根基之色" className="book-image" />
                                     <p className="book-quote">"俭，德之共也；侈，恶之大也。"——《左传·庄公二十四年》</p>
                                     <div className="book-content">
                                         <p className="book-label">释义：</p>
@@ -71,7 +71,7 @@ export default ()=>{
                                 </div>
                                 <div className="book-card">
                                     <h3 className="book-title">《大学》——修身齐家之道</h3>
-                                    <img src="/temp.jpg" alt="《大学》——修身齐家之道" className="book-image" />
+                                    <img src="/daxue.jpg" alt="《大学》——修身齐家之道" className="book-image" />
                                     <p className="book-quote">"修身齐家治国平天下。"——《大学·修身》</p>
                                     <div className="book-content">
                                         <p className="book-label">释义：</p>
@@ -92,7 +92,7 @@ export default ()=>{
                                 {/* 上1个卡片 */}
                                 <div className="artifact-card artifact-top">
                                     <div className="artifact-image-wrapper">
-                                        <img src="/temp.jpg" alt="晋祠铁鼠——廉政文化的象征" className="artifact-image" />
+                                        <img src="/ts.jpg" alt="晋祠铁鼠——廉政文化的象征" className="artifact-image" />
                                     </div>
                                     <div className="artifact-content">
                                         <h3 className="artifact-title">晋祠铁鼠——廉政文化的象征</h3>
@@ -105,7 +105,7 @@ export default ()=>{
                                 {/* 下2个卡片 */}
                                 <div className="artifact-card artifact-bottom">
                                     <div className="artifact-image-wrapper">
-                                        <img src="/temp.jpg" alt='古代官印篆刻"廉吏之印"' className="artifact-image" />
+                                        <img src="/llzy.jpg" alt='古代官印篆刻"廉吏之印"' className="artifact-image" />
                                     </div>
                                     <div className="artifact-content">
                                         <h3 className="artifact-title">古代官印篆刻"廉吏之印"</h3>
@@ -114,7 +114,7 @@ export default ()=>{
                                 </div>                                
                                 <div className="artifact-card artifact-bottom">
                                     <div className="artifact-image-wrapper">
-                                        <img src="/temp.jpg" alt='平遥古城"廉墙"' className="artifact-image" />
+                                        <img src="/lq.jpg" alt='平遥古城"廉墙"' className="artifact-image" />
                                     </div>
                                     <div className="artifact-content">
                                         <h3 className="artifact-title">平遥古城"廉墙"</h3>
@@ -131,7 +131,7 @@ export default ()=>{
                     <h2 className="section-title">廉洁的时代意义</h2>
                     <div className="significance-layout">
                         <div className="significance-image-wrapper">
-                            <img src="/temp.jpg" alt="中华腾" className="significance-image" />
+                            <img src="/zht.png" alt="中华腾" className="significance-image" />
                         </div>
                         <div className="significance-content">
                             <div className="significance-item">
