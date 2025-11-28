@@ -1,0 +1,235 @@
+/* rt5 页面样式 - 关于我们页面 */
+
+.rt5-page {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #faf8f3 0%, #f5f1e8 50%, #efe8dc 100%);
+  padding-bottom: 3rem;
+}
+
+/* 页面头部 */
+.page-header {
+  padding: 2rem 1rem 1rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #2c3e2d;
+  margin-top: 1.5rem;
+  letter-spacing: 0.15em;
+  position: relative;
+  display: inline-block;
+}
+
+.page-title::after {
+  content: '';
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #8b7355, transparent);
+}
+
+/* 页面内容 */
+.page-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* 章节样式 */
+.section {
+  margin-bottom: 4rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2c3e2d;
+  text-align: center;
+  margin-bottom: 3rem;
+  letter-spacing: 0.1em;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #8b7355, transparent);
+}
+
+/* 参与人员列表 */
+.members-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 3rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.members-list li {
+  margin: 0;
+}
+
+.member-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+.member-role {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #8b7355;
+  letter-spacing: 0.05em;
+}
+
+.member-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2c3e2d;
+  letter-spacing: 0.05em;
+}
+
+.member-image {
+  width: calc(1.1rem * 1.5);
+  height: calc(1.1rem * 1.5);
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.member-images {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+/* 成员简介 */
+.member-description {
+  padding: 2rem 0;
+}
+
+.member-description p {
+  color: #5a6d5e;
+  line-height: 1.9;
+  font-size: 1rem;
+  text-align: justify;
+  margin: 0;
+}
+
+/* 项目信息 */
+.project-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.info-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  line-height: 1.5;
+  padding: 0.3rem 0;
+  flex-wrap: wrap;
+}
+
+.info-label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2c3e2d;
+  letter-spacing: 0.05em;
+  margin: 0;
+  min-width: 7em;
+}
+
+.info-link {
+  color: #8b7355;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+  display: inline-block;
+  word-break: break-all;
+}
+
+.info-link:hover {
+  color: #2c3e2d;
+  text-decoration: underline;
+}
+
+.info-value {
+  font-size: 0.95rem;
+  color: #4a5d4e;
+}
+
+/* 技术栈列表 */
+.tech-stack {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: flex-start;
+}
+
+.tech-stack li {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #2c3e2d;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .members-list {
+    gap: 1.2rem;
+  }
+
+  .member-item {
+    gap: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-title {
+    font-size: 1.75rem;
+    letter-spacing: 0.1em;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .member-item {
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+
+  .tech-stack {
+    flex-direction: column;
+    align-items: center;
+  }
+}

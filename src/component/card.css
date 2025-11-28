@@ -1,0 +1,106 @@
+/* 卡片组件样式 - 水墨风格 */
+
+.card-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+  min-width: 280px;
+}
+
+.card-button {
+  width: 100%;
+  padding: 2rem 2.5rem;
+  background: linear-gradient(135deg, #ffffff 0%, #f8f6f0 100%);
+  border: 2px solid rgba(139, 115, 85, 0.3);
+  border-radius: 12px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.card-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  transition: left 0.5s ease;
+}
+
+.card-button:hover::before {
+  left: 100%;
+}
+
+.card-button:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  border-color: rgba(139, 115, 85, 0.5);
+  background: linear-gradient(135deg, #ffffff 0%, #faf8f3 100%);
+}
+
+.card-button:active {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+.card-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e2d;
+  letter-spacing: 0.15em;
+  position: relative;
+  z-index: 1;
+  display: block;
+  transition: color 0.3s ease;
+}
+
+.card-button:hover .card-text {
+  color: #1a5f2f;
+}
+
+.card-decoration {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #8b7355, transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card-button:hover .card-decoration {
+  opacity: 1;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .card-wrapper {
+    max-width: 100%;
+    min-width: auto;
+  }
+
+  .card-button {
+    padding: 1.5rem 2rem;
+  }
+
+  .card-text {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-button {
+    padding: 1.2rem 1.5rem;
+  }
+
+  .card-text {
+    font-size: 1.1rem;
+    letter-spacing: 0.1em;
+  }
+}
+
